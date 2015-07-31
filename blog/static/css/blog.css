@@ -23,6 +23,11 @@ h1, h2, h3, h4 {
     color: #828282;
 }
 
+.signature{
+	float: left;
+	color: #828282;
+}
+
 .save {
     float: right;
 }

@@ -12,7 +12,6 @@
 		<div class="page-header">
 			<h1>Blog do esponja92</h1>
 		</div>
-		<p>Isso tudo é muito divertido!</p>
 		<div class="content conainer">
 			<div class="row">
 				<div class="col-md-8">
@@ -20,7 +19,9 @@
 						<div class="post">
 							<h1><a href="#">{{post.title}}</a></h1>
 							<p>{{post.text|linebreaks}}</p>
-							<p>Escrito por: {{post.author}}</p>
+							<div class="signature">
+								<p>Escrito por: {{post.author}}</p>
+							</div>
 							<div class="date">
 								<p>published: {{post.published_date}}</p>
 							</div>
