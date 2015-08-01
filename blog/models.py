@@ -13,4 +13,4 @@ class Post(models.Model):
 		self.save()
 
 	def __str__(self):
-		return str(self.title.encode('utf-8'))
+		return self.title
